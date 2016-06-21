@@ -1,0 +1,11 @@
+design/*
+!design/*.pdf
+mobiStream/
+visPrivacy/*
+!visPrivacy/app
+visPrivacy/app/src/main/jniLibs/*
+!visPrivacy/app/src/main/jniLibs/armeabi-v7a
+visPrivacy/app/src/main/assets/*
+!visPrivacy/app/src/main/assets/*.xml
+visPrivacy/app/src/main/java/com/rzheng/visualprivacy/*
+!visPrivacy/app/src/main/java/com/rzheng/visualprivacy/MainActivity.java

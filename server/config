@@ -1,0 +1,25 @@
+* [task]
+*   xxx
+*   |||
+*   |||
+*   ||-   face detection, 0 no, 1 yes
+*   |--   fist detection, 0 no, 1 yes
+*   |-- marker detection, 0 no, 1 yes
+task = 111
+
+* [markerpaths] (ignored if marker detection is disabled)
+markerpaths = ["/Users/zerry/Work/CVFun/MarkerDet/marker/card.jpg", "/Users/zerry/Work/CVFun/MarkerDet/marker/privacy2.jpg", "/Users/zerry/Work/CVFun/MarkerDet/marker/hkust.jpg", "/Users/zerry/Work/CVFun/MarkerDet/marker/sunflower.jpg", "/Users/zerry/Work/CVFun/MarkerDet/marker/starsky.jpg"]
+
+* [mode]
+*   0 serve as server, 1 run locally
+mode = 1
+
+* [port] (ignored if run locally)
+port = 51717
+
+* [objtype] (ignored if serve as server)
+*   0 image, 1 folder, 2 video, 3 cam
+objtype = 1
+
+* [objpath] (ignored if serve as server)
+objpath = "/Users/zerry/Work/CVFun/MarkerDet/Experiment/mi2"
