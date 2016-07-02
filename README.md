@@ -18,6 +18,6 @@ A sample config file is `server/config`, in this file you can specify:
 
 ## Client Apps
 
-- visPrivacy: either send cam-stream to server for image processing or do face/(single)marker detection locally
+- visPrivacy: either send cam-stream to server for image processing or do face/(single)marker detection on Android
 
 *performance of opencv fist detection (haar-cascade palm detect) is really bad, a much better hand/gesture detector trained using __[faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)__ can be found [here](tbc)*
